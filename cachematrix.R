@@ -22,7 +22,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 # This last function is the cache function which calculates the inverse of 
 # the matrix as set by the above function.It checks for the inverse before 
-# caculation it. If it has already been calculated then it gives the message, 
+# calculating it. If it has already been calculated then it gives the message, 
 # "getting cached data" followed by the inverse of the matrix. Otherwise, it 
 # calculates the inverse of the matrix data and gives the value of the matrix 
 # in the cache through the setInverse function.
